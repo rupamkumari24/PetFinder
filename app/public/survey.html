@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Spirit Animal Survey Page</title>
+
+    <!--Bootstrap style link-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--jQuery library link-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--Link to external js file-->
+
+    <script type="text/javascript" src="/public/js/survey.js"></script>
+
+    <!--LInk to external CSS file-->
+
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+</head>
+
+<!--Start of survey-->
+<body  id="surveyBody">
+    <div class=container align="center">
+        <div id="survey">
+            <div class="row" align="center" id="userDiv">
+                <img src= "http://via.placeholder.com/150x150" id=pictureDiv>
+                <div id=welcome>               
+
+                </div>         
+            </div>
+            <div class="row" align="center">
+                <h1 id="pagetitle">Spirit Animal Survey</h1>
+            </div>           
+
+            <!-- Question 1 -->
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="surveyquestion">Winning is the most important thing</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    Your Rating <span class="caret"></span>
+						</button>
+                        <ul class="dropdown-menu" id="quest1">
+                            <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+                            <li role="separator" class="divider"></li>
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!-- Question 2 -->
+
+                <div class="col-sm-6">
+
+                    <h4 class="surveyquestion">It is difficult to control your temper</h4>  
+
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							    Your Rating <span class="caret"></span>
+
+							  </button>
+
+                        <ul class="dropdown-menu" id="quest2">
+
+                            <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Question 3 -->
+
+            <div class=row>
+
+                <div class="col-sm-6">
+
+                    <h4 class="surveyquestion">You are down to earth</h4>                   
+
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							    Your Rating <span class="caret"></span>
+
+							  </button>
+
+                        <ul class="dropdown-menu" id="quest3">
+
+                            <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Question 4 -->
+
+                <div class="col-sm-6">
+
+                    <h4 class="surveyquestion">You attack problems head on</h4>
+
+                    
+
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							    Your Rating <span class="caret"></span>
+
+							  </button>
+
+                        <ul class="dropdown-menu" id="quest4">
+
+                            <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Question 5 -->
+
+            <div class=row>
+
+                <div class="col-sm-6">
+
+                    <h4 class="surveyquestion">You are more creative than methodical</h4>
+
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							    Your Rating <span class="caret"></span>
+
+							  </button>
+
+                        <ul class="dropdown-menu" id="quest5">
+
+                            <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Question 6 -->
+
+
+
+                <div class="col-sm-6">
+
+                    <h4 class="surveyquestion">You follow you heart more then your head</h4>
+
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							    Your Rating <span class="caret"></span>
+
+							  </button>
+
+                        <ul class="dropdown-menu" id="quest6">
+
+                           <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Question 7 -->
+
+            <div class=row>
+
+                <div class="col-sm-6">
+
+                    <h4 class="surveyquestion">You like to plan rather than be spontaneous</h4>
+
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							    Your Rating <span class="caret"></span>
+
+							  </button>
+
+                        <ul class="dropdown-menu" id="quest7">
+
+                            <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Question 8 -->
+
+
+
+                <div class="col-sm-6">    
+
+                    <h4 class="surveyquestion">You think you're alone time is important</h4>
+
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							    Your Rating <span class="caret"></span>
+
+							  </button>
+
+                        <ul class="dropdown-menu" id="quest8">
+
+                            <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Question 9 -->
+
+            <div class=row>
+
+                <div class="col-sm-6">
+
+                    <h4 class="surveyquestion">You are adventurous and prefer new experiences</h4>
+
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							    Your Rating <span class="caret"></span>
+
+							  </button>
+
+                        <ul class="dropdown-menu" id="quest9">
+
+                            <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Question 10 -->
+
+                <div class="col-sm-6">
+
+                    <h4 class="surveyquestion">You are often in short rather than longterm relationships</h4> 
+
+                    <div class="btn-group">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							    Your Rating <span class="caret"></span>
+
+							  </button>
+
+                        <ul class="dropdown-menu" id="quest10">
+
+                            <li value="5"><p class="surveyvalues">5   Strongly Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="4"><p class="surveyvalues">4   Agree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="3"><p class="surveyvalues">3   Neutral</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="2"><p class="surveyvalues">2   Disagree</p></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li value="1"><p class="surveyvalues">1   Strongly Disagree</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Submit Button-->
+
+            <div class="row">
+
+                <button class="btn btn-default" id="submitAnswers">Submit Your Answers</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <!--Modal-->
+
+    <div class="modal fade" align="center" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Here is your Spirit Animal</h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+
+                    <a href="/">
+
+	      	<button id="backToHome" type="button" class="btn btn-default" >Back to Home Page</button>
+	      	</a>
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Retake Survey</button>
+                    <button id="searchPet" type="button" class="btn btn-default" data-dismiss="modal">Search Pet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

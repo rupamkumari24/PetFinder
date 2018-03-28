@@ -1,0 +1,304 @@
+/*home.html*/
+
+#errorMsg{
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+}
+#homeBody {	background: url(https://i.ytimg.com/vi/3sLcH6vwi2c/maxresdefault.jpg) no-repeat center center fixed;
+
+	background-size: cover;
+	font-weight: bold;
+	color:#dda252;
+
+}
+
+#homeHeader{
+
+	margin-bottom: 30px;
+
+}
+
+
+
+#toSurvey{
+
+	color:#1a2e47;
+
+	background-color: #83e2fe;
+
+	margin-top:200px;
+
+}
+
+#toSurvey:hover{
+
+	color:#dda252;
+
+	background-color: #571f77;
+
+}
+
+/*surveyhtml*/
+
+#surveyBody {	background: url(http://karisamuels.com/wp-content/uploads/2016/01/Spirit_animal.jpg) no-repeat center center fixed;
+
+	background-size: cover;
+
+	font-weight: bold;
+
+	color:#ffffff;
+
+}
+
+.col-sm-6{
+
+	height:150px;
+
+}
+
+#pagetitle{
+
+	margin-bottom: 50px;	
+
+}
+
+.userInfo{
+
+	width:250px;
+
+	padding:10px;
+
+	margin: 15px;
+
+	color:#571f77;
+
+	background-color: #83e2fe;
+
+	border: none;
+
+}
+
+#pictureDiv{
+
+	height: 100px:
+
+	width:100px;
+
+}
+
+li:hover{
+
+	background-color: #deb690; 
+
+}
+
+#searchlabel{
+
+	margin-top: 7px;
+
+	font-size: 22px;
+
+	color:#ffffff;
+
+}
+
+.surveyquestion{
+
+	font-size: 22px;
+
+}
+
+#submitAnswers{
+
+	font-weight: bold;
+
+	margin-bottom: 40px;
+
+	background-color: #42a2d9;
+
+	color:#6b63af;
+
+	border: solid 1px #6b63af;
+
+	height:50px;
+
+	width:150px;
+
+	margin-top:24px;
+
+}
+
+#submitAnswers:hover{	
+
+	background-color: #42a2d9;
+
+	color:#6b63af;
+
+	border: solid 1px #0071ac;
+
+}
+
+.dropdown-toggle{
+
+	background-color: #42a2d9;
+
+	color:#6b63af;
+
+	border: solid 1px #6b63af;
+
+	width:200px;
+
+	height: 50px;
+
+	margin-bottom: 15px;
+
+}
+
+.dropdown-toggle:hover{
+
+	background-color: #6b63af;
+
+	color:#0071ac;	
+
+	border: solid 1px #0071ac;
+
+}
+
+.btn-default:focus{
+
+	background-color: #42a2d9;
+
+	color:#6b63af;	
+
+	border: solid 1px #42a2d9;
+
+}
+
+.btn-default:active{
+
+	background-color: #42a2d9;
+
+	color:#6b63af;	
+
+	border: solid 1px #42a2d9;
+
+}
+
+.open>.dropdown-toggle.btn-default:focus{
+
+	background-color: #6b63af;
+
+	color:#0071ac;	
+
+	border: solid 1px #0071ac;
+
+} 
+
+.open>.dropdown-toggle.btn-default:visited{
+
+	background-color: #6b63af;
+
+	color:#0071ac;	
+
+	border: solid 1px #0071ac;
+
+}
+
+.open>.dropdown-toggle.btn-default{
+
+	background-color: #6b63af;
+
+	color:#0071ac;	
+
+	border: solid 1px #0071ac;
+
+}
+
+.open>.dropdown-toggle.btn-default:hover {
+
+	background-color: #6b63af;
+
+	color:#0071ac;	
+
+	border: solid 1px #0071ac;
+
+}
+
+
+
+.dropdown-toggle:visited{
+
+	background-color: #6b63af;
+
+	color:#0071ac;
+
+	border: solid 1px #0071ac;	
+
+}
+
+.dropdown-menu{
+
+	width:200px;
+
+    background-color: #42a2d9;
+
+	color:#6b63af;
+
+}
+
+.surveyvalues:hover{
+
+	background-color:#42a2d9;
+
+	color:#ffffff;
+
+}
+
+.surveyvalues:active	{
+
+	background-color:#42a2d9;
+
+	color:#ffffff;
+
+}
+
+.surveyvalues{
+
+	text-align: center;
+
+}
+
+.divider{
+
+	background-color:#6b63af;
+
+}
+
+.modal{
+
+	color:black;
+
+}
+
+#animalImg{
+
+	width:100%;
+
+}
+
+.navbar{
+
+	vertical-align: middle;
+
+	color:#1a2e47;
+
+	background-color: #83e2fe;
+
+}
+
+#copyright{
+
+	margin-top: 13px;
+
+}

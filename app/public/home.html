@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Finder Home</title>
+    <!--Link to bootstrap-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!--Link to jQuery library-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    <!--Link to external js file-->
+
+    <script type="text/javascript" src="/public/js/app.js"></script>
+
+    <!--Link to external css file-->
+
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+
+</head>
+
+<!--Home page body-->
+
+<body id="homeBody">
+    <div class="container-fluid" align="center">
+        <div class="row">
+            <div class="text-center">
+                <h1 id="homeHeader">Spirit Animal Finder</h1>
+                <h3>Want to find your spirit animal?</h3>
+            </div>
+        </div>
+
+        <!--User Input area-->
+
+        <div class="row">
+            <label id="searchlabel">Enter Your Information Here</label>
+        </div>
+        <div class="row ">
+            <div class=col-sm-1>
+            </div>
+            <div class=col-sm-5>
+                <input class="userInfo" type="text" placeholder="Your Name" id="userName">
+            </div>
+            <div class=col-sm-5>
+                <input class="userInfo " type="text" placeholder="http://linktoyourphoto.jpg" id="userPhoto">
+            </div>
+            <div class=col-sm-1>
+            </div>
+        </div>
+
+       <!--Submit Button-->
+
+        <button class="btn btn-default" id="toSurvey">Take the Survey</button>
+    </div>
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div id= copyright align="center" >© 2018 - Rupam
+        </div>
+    </div>
+</body>
+</html>
